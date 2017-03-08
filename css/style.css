@@ -1,0 +1,432 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*----------------------------------------*/
+/*SHARED*/
+/*----------------------------------------*/
+html{
+    color: #555;
+    font-family: 'Lato', 'Arial', 'sans-serif';
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+.section-features{
+    padding: 80px;
+}
+
+.row{
+    max-width:1140px;
+    margin: 0 auto;
+}
+
+.box{
+    padding: 1%;
+}
+
+
+h1, h2, h3{  
+        
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+   
+
+h1 {
+    font-size: 300%;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #fff;
+    word-spacing: 4px;
+
+}
+
+h2{
+    font-size: 200%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+
+h2:after{
+    display: block;
+    height: 2px;
+    background-color: #e67e22;
+    content: " ";
+    width: 20%;
+    max-width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+h3{
+    text-align: center;
+    font-size: 130%;
+    margin-bottom: 15px;
+}
+
+.clearfix {zoom: 1;}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+
+/*PARAGRAPTH*/
+.long-copy{
+    line-height: 145%;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.box p{
+    line-height: 145%;
+}
+
+
+
+/*ICONS*/
+.icon-big{
+    font-size: 350%;
+    display: block;
+    margin-bottom: 10px;
+    color: #e67e22;
+    text-align: center;
+    font-weight: 100;
+    
+}
+
+a{
+    color: #cf6d17;
+    text-decoration: none;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #cf6d17;
+    transition: border 0.2s color 0.2s;
+}
+
+a:hover{
+    color: #555;
+    border-bottom: 1px solid transparent;
+    
+}
+
+
+/*------------------------------------------*/
+/*HEADEAR*/
+/*------------------------------------------*/
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment:fixed;    
+}
+.hero-text-box{
+    position: absolute;
+    width: 80%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+
+.logo{
+    height: 200px;
+    width: auto;
+    float: left;
+    margin-top: 20px;
+}
+
+.main-nav{
+    margin-top: 111px;
+    float: right;
+    list-style: none;
+}
+
+.main-nav li{
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    padding: 8px 0;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 110%;
+    border-bottom: 2px solid transparent;
+    -webkit-transition: border-bottom 0.2s;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid #e67e22;
+}
+
+.btn:link, 
+.btn:visited {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    color: #fff;
+    transition: background-color 0.2s,border 0.2s, color 0.2s;
+        
+}
+
+.btn-full:link,
+.btn-full:visited {
+    background-color: #e67e22;
+    border: 1px solid #e67e22;
+    color: #fff;
+    margin-right: 15px;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited{
+    border: 1px solid #e67e22;
+    color: #e67e22;
+}
+
+
+.btn:hover,
+.btn:active {
+    background-color: #cf6d17;
+}
+
+.btn-full:hover,
+.btn-full:active {
+    border: 1px solid #cf6d17;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+    border: 1px solid #cf6d17;
+    color: #fff;
+}
+
+
+/*------------------------------------------*/
+/*SECTION MEALS*/
+/*------------------------------------------*/
+
+.image-showcase{
+    list-style: none;
+    width: 100%;
+}
+
+.image-showcase li{
+    display: block;
+    width: 25%;
+    float: left;
+}
+
+.meal-foto{
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.meal-foto img{
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+    transform: scale(1.15);
+    transition: transform 0.5s, opacity 0.5s;
+    
+        
+}
+
+.meal-foto img:hover{
+    transform: scale(1.03);
+    opacity: 1;
+}
+
+/*------------------------------------------*/
+/*SECTION STEPS*/
+/*------------------------------------------*/
+
+.steps{
+    padding-top: 80px;
+    background-color: #ede8e8;
+}
+.steps-box {
+    margin-top: 30px;
+}
+
+.app-screen{
+    width: 40%;
+}
+
+.steps-box{
+    margin-top: 5%;
+}
+
+
+.steps-box:first-child {
+    text-align: right;
+    padding-right: 3%;
+    
+}
+
+.steps-box:last-child {
+    text-align: left;
+    padding-left: 3%;
+    
+}
+
+.circle-point{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: 2px solid #cf6d17;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 14%;
+    float: left;
+    padding: 12px;
+    font-size: 150%;
+    margin-right: 30px; 
+    
+}
+
+.circle-point:last-of-type{
+    margin-bottom: 50px;
+}
+
+
+.app-btn{
+    border: 0;
+}
+
+.app-btn img{
+    height: 50px;
+    width: auto;  
+    margin-right:10px;
+    
+}
+
+
+
+/*------------------------------------------*/
+/*SECTION STEPS*/
+/*------------------------------------------*/
+
+.cities{
+    padding-top: 80px;  
+}
+
+.city-col h3{
+    text-align: left;
+}
+
+.city-col img {    
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.icon-small{
+    display: inline-block;
+    color: #cf6d17;
+    font-size: 120%;
+    margin-right: 5px;
+    width: 30px;
+    text-align: center;
+    
+    line-height: 120%;
+    vertical-align: middle;
+    margin-bottom: -4px;
+}
+
+/*------------------------------------------*/
+/*SECTION CUSTOMRES OPINION*/
+/*------------------------------------------*/
+
+.testimonials{
+    margin-top: 5%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(/img/back-customers.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 5%;  
+    color: #fff;
+    background-attachment: fixed;
+    
+}
+
+blockquote{
+    
+    
+    font-style: italic;
+    display: block;
+    position: relative;
+    margin-top:10%;
+}
+
+blockquote:before{
+    content: "\201C";
+    font-size: 400%;
+    display: block;
+    position: absolute;
+    top: -50px;
+    left: -5px;
+    
+}
+
+cite{
+    font-style: italic;
+    display: block;
+    margin-top:25px; 
+}
+
+cite img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
