@@ -27,6 +27,10 @@ html{
     padding: 1%;
 }
 
+section{
+    padding-top: 80px;
+}
+
 
 h1, h2, h3{  
         
@@ -261,7 +265,7 @@ header{
 
 .steps{
     padding-top: 80px;
-    background-color: #ede8e8;
+    background-color: #f4f4f4;
 }
 .steps-box {
     margin-top: 30px;
@@ -356,7 +360,7 @@ header{
 /*------------------------------------------*/
 
 .testimonials{
-    margin-top: 5%;
+    padding-top: 80px;
     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(/img/back-customers.jpg);
     background-size: cover;
     background-position: center;
@@ -398,6 +402,71 @@ cite img{
     vertical-align: middle;
     margin-right: 10px;
 }
+
+/*------------------------------------------*/
+/*SECTION CUSTOMRES OPINION*/
+/*------------------------------------------*/
+
+
+.plans {
+    padding-top: 80px;
+    background-color: #f4f4f4;
+    
+}
+
+.plan-box{
+    margin-bottom: 80px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 1px 2px 
+    1px #888888;
+    
+}
+
+.plan-box-header{
+    background-color: rgba(255, 255, 255, 0.9);
+    border-bottom: 1px solid lightgray;
+    padding: 15px;
+}
+
+.plan-box h3{
+     text-align: left;
+}
+
+.plan-price{
+    color: #cf6d17;
+    font-size: 300%;
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+
+.plan-price span{
+    font-size: 30%;
+    font-weight: 300;
+    
+}
+.plan-price-meal{
+    font-size: 80%;
+}
+
+
+.plan-box ul{
+    list-style: none;
+    border-bottom: 1px solid lightgray;
+    padding: 15px;
+}
+
+.plan-box ul li{
+    margin-bottom: 5px;
+    padding: 15px;
+}
+
+.plan-box-footer{
+    text-align: center;
+    padding: 15px;
+}
+
+
 
 
 
