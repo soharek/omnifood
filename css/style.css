@@ -178,6 +178,7 @@ header{
     border-bottom: 2px solid #e67e22;
 }
 
+input[type=submit],
 .btn:link, 
 .btn:visited {
     display: inline-block;
@@ -190,6 +191,7 @@ header{
         
 }
 
+input[type=submit],
 .btn-full:link,
 .btn-full:visited {
     background-color: #e67e22;
@@ -198,18 +200,20 @@ header{
     margin-right: 15px;
 }
 
+
 .btn-ghost:link,
 .btn-ghost:visited{
     border: 1px solid #e67e22;
     color: #e67e22;
 }
 
-
+input[type=submit]:hover,
 .btn:hover,
 .btn:active {
     background-color: #cf6d17;
 }
 
+/*input[type=submit]:hover,*/
 .btn-full:hover,
 .btn-full:active {
     border: 1px solid #cf6d17;
@@ -404,7 +408,7 @@ cite img{
 }
 
 /*------------------------------------------*/
-/*SECTION CUSTOMRES OPINION*/
+/*SECTION MEAL PLANS*/
 /*------------------------------------------*/
 
 
@@ -465,6 +469,30 @@ cite img{
     text-align: center;
     padding: 15px;
 }
+
+/*------------------------------------------*/
+/*SECTION CONTACT FORM*/
+/*------------------------------------------*/
+
+.contact-form{
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea{
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+}
+
+textarea{
+    height: 100px;
+}
+
 
 
 

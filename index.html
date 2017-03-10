@@ -310,41 +310,68 @@
              </div>
             </section>
             <section>
-                <h2>WE'RE HAPPY TO HEAR FROM YOU</h2>
-                
-
-                <form method="post" action="#" class="contact-form">
-                    <div class="row">
-                        <div class="col span-1-of-3">
-                            <label for="name">Name</label>
-                        </div>
-                        <div class="col span-2-of-3">
-                            <input class="text" id="name" placeholder="Your name">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col span-1-of-3">
-                            <label for="email">Email</label>
-                        </div>
-                        <div class="col span-2-of-3">
-                            <input class="eamil" id="eamil" placeholder="Your email">
-                        </div>
-                    </div>
-                     <div class="row">
-                        <div class="col span-1-of-3">
-                            <label for="find-us">How did you find us</label>
-                        </div>
-                        </div>
-                         <div class="row">
-                            <div class="col span-2-of-3">
-                                <select  id="find-us" placeholder="Your email">
-                                    <option value="friends" selected>Friends</option>
-                                    <option value="internet" selected>Internet</option>
-                                    <option value="facebook" selected>Facebook</option>
+                <div class="row">
+                    <h2>WE'RE HAPPY TO HEAR FROM YOU</h2>
+                </div>
+                <div class="row">
+                    <form class="contact-form" method="post" action="#">
+                        <div class="row">
+                            <div class="col span-1-of-3">
+                                <label for="name">Name</label>
                             </div>
-                        </dizv>
-
-                </form>
+                             <div class="col span-2-of-3">
+                                   <input type="text" name="name" id="name" placeholder="Your name" required>
+                              </div>                                            
+                        </div>
+                        <div class="row">
+                            <div class="col span-1-of-3">
+                                <label for="email">Email</label>
+                            </div>
+                             <div class="col span-2-of-3">
+                                   <input type="email" name="email" id="emial" placeholder="Your email" required>
+                              </div>                                            
+                        </div>
+                        <div class="row">
+                            <div class="col span-1-of-3">
+                                <label for="find-us">How did You find us?</label>
+                            </div>
+                            <div class="col span-2-of-3">
+                                <select name="find-us" id="find-us">
+                                    <option value="friends" >Friends</option>
+                                    <option value="internet" >internet</option>
+                                    <option value="advert" >Adertisment</option>
+                                    <option value="other" >Other</option>
+                                </select>
+                            </div>                                            
+                        </div>
+                        <div class="row">
+                            <div class="col span-1-of-3">
+                                <label for="newsletter">Newsletter</label>
+                            </div>
+                            <div class="col span-2-of-3">
+                                <input type="checkbox" id="newsletter" name="newsletter"> Yes,please
+                            </div>                        
+                        </div>
+                        <div class="row">
+                            <div class="col span-1-of-3">
+                                <label for="messege">Drop us a line</label>
+                            </div>
+                             <div class="col span-2-of-3">
+                                   <textarea name="messege" placeholder="messege"></textarea>
+                              </div>                                            
+                        </div>
+                        <div class="row">
+                            <div class="col span-1-of-3">
+                                <label>&nbsp;</label>
+                            </div>
+                             <div class="col span-2-of-3">
+                               <input type="submit" class="btn-full" >   
+                              </div>                                            
+                        </div>
+                    
+                    
+                    </form>
+                </div>                
             </section>
         </body>
     </html>
