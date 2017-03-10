@@ -494,7 +494,55 @@ textarea{
 }
 
 
+/*------------------------------------------*/
+/*SECTION FOOTER*/
+/*------------------------------------------*/
+footer{
+    background-color: #333;
+    padding-top: 50px;
+}
 
+footer ul{
+    list-style: none; 
+    margin-right: 0;   
+}
+
+footer ul li{
+    display: inline-block;
+    margin-right: 15px; 
+
+}
+
+footer ul li:last-child{
+    margin-right: 0;
+}
+
+footer ul li a{
+    text-decoration: none;
+    border:0;
+    color: #888;
+    transition: color 0.2s;
+}
+
+footer ul li a:hover{
+    color: white;
+
+}
+
+.footer-nav{
+    float: left;
+}
+
+.social-links{
+    float: right;
+}
+
+footer p {
+    margin-top:30px;
+    color: #888;
+    font-size: 90%; 
+    text-align: center;
+}
 
 
 
